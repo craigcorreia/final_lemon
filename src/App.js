@@ -1,8 +1,16 @@
 import './App.css';
+import Header from './Components/Header';
+// import Main from './Components/main'
+// import Footer from './Components/footer'
 
 function App() {
   return (
-    <h1>Hi there</h1>
+    <>
+    <Header />
+    {/* <Header />
+    <Main />
+    <Footer /> */}
+    </>
   );
 }
 
