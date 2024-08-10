@@ -1,5 +1,5 @@
 // import logo from '.../public/logo192'
-import Nav from './nav'
+
 
 
 const Header = () => {
@@ -8,7 +8,6 @@ const Header = () => {
         <div >
             <img src= {require ('../images /logo.jpg')} alt='logo'></img>
         </div>
-        <Nav />
         </div>
     )
 }
